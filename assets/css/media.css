@@ -1,0 +1,384 @@
+/* MEDIA QUERY */
+
+
+/*---------- XS -------------- XS --------------- XS --------------- XS ------------------- XS --------- */
+
+@media(min-width: 320px) and (max-width: 767px) {
+    .navbar-nav {
+        margin-top: 12px;
+        padding: 10% 0% 0% 0%;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        background-color: #636363;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        padding: 0 0 0 10%;
+    }
+    .hero {
+        padding: 60px 0 60px 0;
+    }
+    .hero h2 {
+        font-size: 17px;
+    }
+    .hero h1 {
+        font-size: 30px;
+        padding: 35px 0;
+    }
+    .hero a {
+        display: none;
+    }
+    .about {
+        padding: 60px 0;
+    }
+    .about h2 {
+        font-size: 26px
+    }
+    .about p {
+        text-align: center;
+        padding: 20px 0;
+    }
+    .statistics {
+        padding: 40px 0;
+    }
+    .statistics .static {
+        padding: 20px 0 15px 4%;
+    }
+    .statistics .static .details {
+        padding: 0;
+    }
+    .bestProjects {
+        padding: 60px 0;
+    }
+    .bestProjects .intro {}
+    .bestProjects .intro h2 {
+        font-size: 31px;
+    }
+    .bestProjects .intro p {
+        text-align: center;
+        padding: 20px 0;
+    }
+    .bestProjects .projects .project {
+        margin-bottom: 10px;
+    }
+    .partners {
+        padding: 60px 0 0 0;
+    }
+    .reviews {
+        padding: 60px 0;
+    }
+    .owl-carousel p {
+        padding: 0px;
+        font-size: 18px;
+    }
+    .owl-carousel h2 {
+        padding: 30px 0 0 0;
+    }
+    .owl-carousel .owl-nav {
+        display: none;
+    }
+    .owl-carousel .owl-dots {
+        display: none;
+    }
+    .latestBlog {
+        padding: 60px 0 0 0;
+    }
+    .latestBlog .intro {}
+    .latestBlog .intro h2 {
+        font-size: 31px;
+    }
+    .latestBlog .intro p {
+        text-align: center;
+        padding: 20px 0;
+    }
+    .latestBlog .blog .btn-dark {
+        top: 115px;
+    }
+    .latestBlog .blog {
+        text-align: center;
+    }
+    .latestBlog .blog span {
+        font-size: 11px;
+        text-align: center;
+    }
+    .latestBlog .blog p {
+        font-size: 12px;
+        text-align: center;
+        padding: 20px 10px;
+    }
+    .latestBlog .blog h3 {
+        font-size: 15px;
+        padding: 20px 0px;
+        text-align: center;
+    }
+    .contactInfo {
+        padding: 60px 0;
+    }
+    .contactInfo .enterData {
+        text-align: center;
+    }
+    .contactInfo h2 {
+        font-size: 31px;
+        text-align: center;
+    }
+    .contactInfo p.main {
+        font-size: 13px;
+        text-align: center;
+        padding: 20px 0;
+    }
+    .contactInfo p {
+        padding: 20px 0;
+        font-size: 11px;
+    }
+    .form-control {
+        height: 40px;
+        margin: 15px 0 0 0;
+        font-size: 14px;
+    }
+    .social {
+        text-align: center;
+        padding: 60px 0;
+    }
+    .social h2 {
+        font-size: 25px;
+        padding: 30px 0 15px 0;
+    }
+    .social .aboutUs {
+        padding: 0 0 50px 0;
+    }
+    .social .aboutUs p {
+        padding: 0 4% 10px 4%;
+        text-align: center;
+        font-size: 13px;
+    }
+    .social .aboutUs ul {
+        padding: 0 0px 0px 38px;
+    }
+    .social .latestTwits p {
+        padding: 0 4% 10px 0;
+        text-align: left;
+        font-size: 10px;
+    }
+    .social .instagram .col-6 {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    .social .instagram img {
+        width: 100%;
+    }
+
+    /* portfolio secondary page */
+
+
+
+
+    .subFooter p{
+        font-size: 13px;
+    }
+
+    .bestProjects.portfolio .portfolioMenu li{
+        padding: 3px 6px;
+        font-size: 11px;
+    }
+}
+
+
+/* ----------------------------------------------------------------------------------------------*/
+
+@media(min-width: 360px) and (max-width: 767px) {
+    .contactInfo p.main {
+        font-size: 15px;
+    }
+    .contactInfo p {
+        font-size: 13px;
+    }
+}
+
+
+/* ----------------------------------------------------------------------------------------------*/
+
+@media(min-width: 375px) and (max-width: 767px) {
+    .social .latestTwits p {
+        font-size: 12px;
+    }
+}
+
+
+/* ----------------------------------------------------------------------------------------------*/
+
+@media(min-width: 411px) and (max-width: 767px) {
+    .about p,
+    .bestProjects .intro p,
+    .latestBlog .intro p,
+    .contactInfo p.main {
+        font-size: 16px;
+    }
+    .contactInfo p {
+        font-size: 15px;
+    }
+    .latestBlog .blog h3 {
+        font-size: 19px;
+    }
+    .latestBlog .blog span {
+        font-size: 13px;
+    }
+    .latestBlog .blog p {
+        font-size: 14px;
+    }
+    .form-control {
+        height: 45px;
+        font-size: 16px;
+    }
+    .social .aboutUs p {
+        font-size: 15px;
+    }
+    .social .latestTwits p {
+        font-size: 14px;
+    }
+}
+
+
+/* ----------------------------------------------------------------------------------------------*/
+
+@media(min-width: 414px) and (max-width: 767px) {}
+
+
+/* ----------------------------------------------------------------------------------------------*/
+
+@media(min-width: 568px) and (max-width: 767px) {
+    .contactInfo p {
+        text-align: center;
+    }
+    .latestBlog .blog .btn-dark {
+        top: 250px;
+    }
+    .social .aboutUs ul {
+        padding: 0px 0px 0px 140px;
+    }
+}
+
+
+/* ------- SM ------------- SM ------------- SM ------------- SM ------------- SM ------------- SM ------ */
+
+@media(min-width: 640px) and (max-width: 767px) {
+    .bestProjects .col-sm-4 {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    .social .aboutUs ul {
+        padding: 0px 0px 0px 165px;
+    }
+    .footer p {
+        font-size: 18px;
+    }
+}
+
+
+/* ---------------------------------------------------------------------- */
+
+@media(min-width: 667px) and (max-width: 767px) {
+    .latestBlog .blog .btn-dark {
+        top: 290px;
+    }
+}
+
+
+/* ---------------------------------------------------------------------- */
+
+@media(min-width: 731px) and (max-width: 767px) {}
+
+
+/* ---------------------------------------------------------------------- */
+
+@media(min-width: 736px) and (max-width: 767px) {}
+
+
+/* ----- MD --------- MD --------- MD --------- MD --------- MD --------- MD --------- MD --------- MD ----*/
+
+@media(min-width: 768px) and (max-width: 991px) {
+    .statistics {
+        padding: 80px 0;
+    }
+    .statistics .static {
+        padding: 0;
+    }
+    .statistics .static .icon i {
+        font-size: 25px;
+    }
+    .statistics .static .details span {
+        font-size: 18px;
+    }
+    .statistics .static .details h2 {
+        font-size: 13px;
+    }
+    .latestBlog .blog .btn-dark {
+        top: 350px;
+    }
+    .latestBlog .blog h3 {
+        font-size: 30px;
+    }
+    .latestBlog .blog span {
+        font-size: 18px;
+    }
+    .latestBlog .blog p {
+        font-size: 20px;
+    }
+    .about h2,
+    .bestProjects .intro h2,
+    .latestBlog .intro h2,
+    .contactInfo h2 {
+        font-size: 42px;
+    }
+    .about p,
+    .bestProjects .intro p,
+    .latestBlog .intro p {
+        font-size: 20px;
+        padding-bottom: 40px;
+    }
+    .contactInfo h2 {
+        text-align: left;
+    }
+    .contactInfo p.main {
+        text-align: left;
+        font-size: 17px;
+    }
+    .contactInfo p {
+        text-align: left;
+        padding: 7px 0;
+        font-size: 14px;
+    }
+    .contactInfo .enterData {
+        padding-top: 60px;
+    }
+    .form-control {
+        height: 40px;
+        font-size: 16px;
+        margin: 0;
+    }
+    .social h2 {
+        text-align: left;
+        padding: 0 0 15px 20px;
+    }
+    .social p {}
+    .social .aboutUs p {
+        text-align: left;
+        font-size: 14px;
+    }
+    .social .aboutUs ul {
+        padding: 0;
+    }
+
+    .social .latestTwits p {
+        font-size: 12px;
+    }
+
+}
+
+
+/* ---- LG ------- LG ------- LG ------- LG ------- LG ------- LG ------- LG ------- LG -------- LG ------- */
+
+@media(min-width: 1024px) and (max-width: 1366px) {}
+
+
+/* ------- XL ----------- XL ----------- XL ----------- XL ----------- XL ----------- XL ----------- XL ---- */
+
+@media(min-width: 1366px) and (max-width: 1367px) {}
